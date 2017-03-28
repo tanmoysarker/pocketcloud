@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="pocketcloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="4" osVersion="*" schemaVersion="2015-04.2.6">
+  <Role name="WebRole1">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=Images;AccountKey=Ova7K/XW6uW4qkvxHp8zOh3QKFIeI0WmMt1pfu4MbxTBKUSKIKua2WR/NI7NQ3bKs6XmpoDXbLgIj2b+97TuKQ==" />
+      <Setting name="PocketFileStorageConn" value="UseDevelopmentStorage=true" />
+      <Setting name="pocketcloud_AzureStorageConnectionString" value="DefaultEndpointsProtocol=https;AccountName=pocketcloud;AccountKey=Ova7K/XW6uW4qkvxHp8zOh3QKFIeI0WmMt1pfu4MbxTBKUSKIKua2WR/NI7NQ3bKs6XmpoDXbLgIj2b+97TuKQ==" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>
